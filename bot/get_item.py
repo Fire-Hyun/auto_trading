@@ -6,13 +6,13 @@ class get_item():
         # 코스피 종목 모두 출력
         self.get_item_kospi()
         print("코스피 종목 수: ", len(self.code_df_kospi))
-        print(self.code_df_kospi)
-        print(type(self.code_df_kospi))
+        # print(self.code_df_kospi)
+        # print(type(self.code_df_kospi))
 
         # 코스닥 종목 모두 출력
         self.get_item_kosdaq()
         print("코스닥 종목 수: ", len(self.code_df_kosdaq))
-        print(self.code_df_kosdaq)
+        # print(self.code_df_kosdaq)
 
 
     def get_item_kospi(self):
